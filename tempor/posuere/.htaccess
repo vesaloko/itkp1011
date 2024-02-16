@@ -1,0 +1,7 @@
+AuthUserFile /nashome5/vesaloko/public_html/dui/tempor/posuere/hidden/users
+  AuthGroupFile /dev/null  
+  AuthName ByPassword  
+  AuthType Basic  
+  <Limit GET>  
+  require valid-user  
+  </Limit>

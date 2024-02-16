@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8"/>
+<base href="#"/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="tyylit.css" rel="stylesheet" type="text/css" media="all"/>
+<title>ITKP1011-Harjoitustyö - ITKP1011-Harjoitustyö</title>
+</head>
+<body>
+    <nav class="navbartop">
+    <ul>
+        <li><a href="https://www.jyu.fi/">Jyväskylän yliopisto</a></li>
+        <li><a href="https://www.jyu.fi/it/">Informaatioteknologian tiedekunta</a></li>
+        <li><a href="https://www.jyu.fi/it/fi/opiskelu/kandidaatti-ja-maisteriohjelmat/tietotekniikka">Tietotekniikan oppiaine</a></li>
+        <li><a href="https://appro.mit.jyu.fi/itkp1011/">ITKP1011</a></li>
+    </ul>
+    </nav>
+<!--#include virtual="/~vesaloko/public_html/dui/itkp1011.ssi"-->
+<h1>ITKP1011-Harjoitustyö</h1>
+<p>
+    Etiam laoreet sit amet nulla at euismod. Maecenas ac sem porta, finibus sapien sit amet, sollicitudin ipsum. In non aliquet elit. In accumsan quis neque in luctus. Sed vel hendrerit sem. Nulla et eros finibus, ullamcorper augue et, commodo neque. Praesent vulputate efficitur magna, ut imperdiet ex aliquam vel. Donec ut aliquet quam, a iaculis lorem. Ut scelerisque velit metus, non lobortis urna dignissim in. Mauris tempor orci varius metus venenatis iaculis. Nam tempor purus ut urna mattis tempor. Nullam tristique rutrum sem et dictum. Vivamus non velit pretium, facilisis erat ac, condimentum risus.
+</p>
+<p>
+Proin eu ullamcorper odio, ut condimentum neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque non massa mattis, venenatis lectus dignissim, ornare arcu. Praesent pretium felis enim, vitae hendrerit orci sollicitudin in. Pellentesque consectetur, tellus nec pulvinar sollicitudin, dolor velit pellentesque tortor, et feugiat diam tortor vel velit. Sed non mi a mauris aliquet feugiat. Nam eu lorem justo. Morbi tincidunt sagittis sem, vulputate accumsan quam euismod non. Suspendisse venenatis ante sem, eu luctus mauris efficitur id. Fusce commodo sit amet eros id eleifend. Suspendisse potenti. Cras accumsan ultricies faucibus. Morbi feugiat vestibulum eros facilisis semper. Curabitur malesuada faucibus mauris. Curabitur sed quam feugiat, tincidunt mi et, pellentesque turpis. Donec vel urna interdum elit ultricies vestibulum.
+</p>
+<div class="kuva">
+<p>
+    <a href="etusivu1_linkki.jpg">
+    <img src="etusivu1.jpg" alt="etusivu 1" title="etusivu 1" /></a>
+    <h3>etusivu 1</h3>
+</div>
+<div id="2Divistion" class="division1">
+<p>
+    Donec hendrerit mauris sed sodales lobortis. Quisque nec nibh turpis. Vestibulum nisl felis, pellentesque quis efficitur in, mollis quis libero. Aliquam porttitor velit id purus euismod, a pretium ligula aliquam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vehicula, leo at ullamcorper mollis, enim eros suscipit nisi, in suscipit sapien purus ac dolor. Suspendisse condimentum quam quis mi semper, quis mollis risus pretium. Phasellus molestie nisi semper risus tincidunt lobortis.
+</p>
+<p>
+    Etiam mattis enim id metus fermentum, nec suscipit leo semper. Proin ut justo eleifend, tincidunt nulla sed, tincidunt erat. Fusce non velit magna. Sed feugiat leo vitae tellus laoreet, fringilla dignissim nunc pellentesque. Nullam pellentesque nulla eget semper convallis. Quisque in leo iaculis, imperdiet justo nec, rutrum erat. Nam lobortis, urna vel faucibus pulvinar, justo tortor laoreet dolor, ac varius metus felis et arcu. Nulla convallis nisi nec magna scelerisque posuere. Cras vel porta neque. Morbi varius leo ac orci mattis semper. Maecenas in ex nec dolor efficitur molestie. Vivamus nec ligula luctus, pellentesque tortor non, pellentesque tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget tellus pellentesque, interdum sapien in, accumsan turpis. Quisque scelerisque porta laoreet. Etiam lacinia id tortor nec placerat.
+</p>
+</div>
+<nav class="alapalkki">
+    <ul>
+        <li><a href="#">ITKP1011 Harjoitustyö</a></li>
+        <li><h5>©Venla Salokoski</h5></li>
+    </ul>
+</nav>
+</body>
+</html>
+

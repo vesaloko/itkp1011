@@ -1,0 +1,46 @@
+<!--valmis + validi-->
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8"/>
+<base href="../../"/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="tyylit.css" rel="stylesheet" type="text/css" media="all"/>
+<title>ITKP1011-Harjoitustyö - malesuada</title>
+</head>
+<body>
+   <nav class="navbartop">
+      <ul>
+         <li><a href="https://www.jyu.fi/">Jyväskylän yliopisto</a></li>
+         <li><a href="https://www.jyu.fi/it/">Informaatioteknologian tiedekunta</a></li>
+         <li><a href="https://www.jyu.fi/it/fi/opiskelu/kandidaatti-ja-maisteriohjelmat/tietotekniikka">Tietotekniikan oppiaine</a></li>
+         <li><a href="https://appro.mit.jyu.fi/itkp1011/">ITKP1011</a></li>
+      </ul>
+   </nav>
+<!--#include virtual="/~vesaloko/public_html/dui/itkp1011.ssi"-->
+   <h1>malesuada</h1>
+   <p>
+    Nullam sollicitudin id mi non luctus. Donec tempor ipsum quis ex congue laoreet et sed felis. Nullam leo ligula, finibus vitae dui eu, lobortis ullamcorper nulla. Vestibulum vitae dui vitae augue hendrerit pretium. Morbi sit amet bibendum dui. Duis ullamcorper volutpat nisi, vitae mattis purus elementum nec. Pellentesque dictum lacus odio, quis cursus urna lacinia ut. Nullam cursus elit neque, nec sagittis ipsum rhoncus sit amet. 
+  </p>
+   <p>
+    Etiam dapibus accumsan ornare. Donec sapien sem, venenatis vitae hendrerit in, vestibulum sit amet tellus. Proin eros neque, vulputate in gravida id, cursus vel sapien. Cras id metus a dui feugiat congue vitae ornare mi. Integer faucibus felis vel tortor semper imperdiet. Quisque ac consequat turpis. Nulla id fringilla urna. Donec et cursus ante. Mauris molestie libero quis nibh feugiat varius. 
+   </p>
+   <p>
+    Morbi et scelerisque ligula. Integer vitae leo vitae nunc venenatis dapibus. Morbi ac sodales libero. Cras accumsan commodo odio in porttitor. Sed pulvinar volutpat nibh, eu sollicitudin leo blandit at. Quisque posuere a lectus et pharetra. Suspendisse nec dictum magna. Vivamus porta urna a ultrices posuere. Duis vel ultrices arcu. 
+   </p>
+    <p>
+    In fermentum a nisl in laoreet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed elementum lectus iaculis aliquet sollicitudin. Ut convallis massa a tempor rhoncus. Praesent varius, velit et efficitur semper, erat magna auctor turpis, non bibendum purus metus bibendum sem. Proin vel sapien eu risus porttitor faucibus. In hac habitasse platea dictumst. Etiam tincidunt feugiat arcu, vitae volutpat tortor semper a. Nulla in velit ut elit sollicitudin pulvinar a ut purus. Curabitur vel condimentum orci, eget laoreet sem. Cras vestibulum vulputate mi. Fusce ligula erat, rutrum in venenatis et, tempus quis lacus. Aenean sed libero nec ante congue vestibulum et et ipsum.
+   </p>
+   <p>Donec dictum egestas arcu, sed venenatis lorem dapibus non. Fusce rhoncus, nunc quis fermentum eleifend, quam justo venenatis velit, at sodales lorem dui in dolor. Sed purus sapien, venenatis ut diam eget, auctor venenatis nibh. Integer condimentum posuere aliquam. Curabitur pharetra mattis ipsum nec porttitor. Suspendisse sagittis convallis commodo. Nulla condimentum facilisis arcu, eget varius nunc. Duis maximus lectus lectus. In fringilla, erat non convallis fringilla, nulla nulla interdum nunc, id consectetur dolor dolor eget urna. Sed porta orci id pellentesque tempus. Curabitur dapibus tempus elit. Quisque quam orci, scelerisque at facilisis vitae, lobortis ut ante. Donec elit enim, condimentum pellentesque placerat eget, pulvinar vitae nunc. Duis nec ante magna. Vestibulum fermentum lorem arcu, consequat varius nulla ultricies non. Mauris orci libero, varius hendrerit pharetra a, blandit non leo.
+   </p>
+    <p>Pellentesque quis convallis mauris. Vestibulum sit amet elit id ante porta consectetur. Pellentesque ut neque eros. In tincidunt suscipit orci, ut semper nisl. Praesent nec augue sit amet dolor sagittis efficitur ullamcorper quis nulla. Cras fringilla venenatis velit mattis bibendum. Phasellus lacinia tellus odio, nec faucibus nibh fermentum id. Cras faucibus, lorem in bibendum sodales, nisl nunc consectetur lorem, a bibendum nunc nibh ac sapien. In fermentum pretium dignissim.
+    </p>
+    <div class="alapalkki">
+      <ul>
+         <li><a href="#">ITKP1011 Harjoitustyö</a></li>
+         <li><h5>©Venla Salokoski</h5></li>
+      </ul>
+   </div>
+</body>
+</html>
+

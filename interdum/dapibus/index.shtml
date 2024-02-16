@@ -1,0 +1,39 @@
+<!--valmis validoitu -->
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<base href="../../"/>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="tyylit.css" rel="stylesheet" type="text/css" media="all"/>
+<title>ITKP1011-Harjoitustyö - dapibus</title>
+</head>
+<body>
+   <nav class="navbartop">
+      <ul>
+         <li><a href="https://www.jyu.fi/">Jyväskylän yliopisto</a></li>
+         <li><a href="https://www.jyu.fi/it/">Informaatioteknologian tiedekunta</a></li>
+         <li><a href="https://www.jyu.fi/it/fi/opiskelu/kandidaatti-ja-maisteriohjelmat/tietotekniikka">Tietotekniikan oppiaine</a></li>
+         <li><a href="https://appro.mit.jyu.fi/itkp1011/">ITKP1011</a></li>
+      </ul>
+   </nav>
+<!--#include virtual="/~vesaloko/public_html/dui/itkp1011.ssi"-->
+   <h1>dapibus</h1>
+   <p>
+    Vestibulum quis dui sit amet dolor eleifend laoreet. Vestibulum iaculis magna non odio fringilla, sed scelerisque lorem cursus. Maecenas faucibus eros non vehicula consequat. Suspendisse ut nibh sed sapien tristique posuere. Duis rhoncus massa et sodales feugiat. Praesent aliquam, arcu vitae tempus accumsan, massa lectus pulvinar lectus, eget ultrices est nibh ut diam. Vestibulum diam odio, tempus ac volutpat non, dapibus ac massa. Phasellus eget massa turpis. Aliquam id ex pellentesque justo tincidunt gravida. Praesent tristique sem dui, non gravida orci mattis id. Nunc ut felis in tortor iaculis lacinia non vel leo.
+  </p> 
+  <p>
+    Pellentesque eu felis vulputate, iaculis arcu vitae, interdum risus. Vivamus velit dui, rutrum eu felis sed, venenatis pulvinar quam. Ut id dolor a est lobortis feugiat at nec augue. Vivamus id posuere tellus, sed vestibulum metus. Aliquam pellentesque, risus eget aliquam malesuada, lectus nibh maximus libero, id semper nisi justo vel elit. Nulla enim nisl, venenatis blandit tincidunt non, faucibus in orci. Aliquam et elementum sapien, at aliquam nulla. Suspendisse rhoncus nunc quis tellus tempus, sit amet dignissim est varius. Praesent gravida interdum massa, eu malesuada turpis dapibus sit amet. Curabitur sagittis sagittis massa, non euismod felis imperdiet in. Fusce malesuada imperdiet vehicula. Nunc massa leo, posuere sagittis ipsum a, lobortis congue augue. Integer malesuada tortor vitae eros vehicula tincidunt.
+  </p>
+  <p>
+    Aenean a volutpat libero. Aliquam interdum faucibus accumsan. Maecenas nec quam finibus sapien semper molestie. Nam velit leo, tempor ut tortor quis, viverra porttitor quam. In hac habitasse platea dictumst. Donec tristique velit id pulvinar ultricies. Integer sed sem scelerisque, tempor mauris non, vulputate eros. Nunc interdum volutpat nulla, ultrices placerat eros convallis quis. Phasellus commodo diam vitae arcu pulvinar, sed sodales est laoreet. 
+  </p>
+   <div class="alapalkki">
+      <ul>
+         <li><a href="#">ITKP1011 Harjoitustyö</a></li>
+         <li><h5>©Venla Salokoski</h5></li>
+      </ul>
+   </div>
+</body>
+</html>
+

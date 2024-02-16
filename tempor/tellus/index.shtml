@@ -1,0 +1,161 @@
+<!--ok, loppu puuttuu + asettelu-->
+<!DOCTYPE html> 
+<html lang="fi">
+<head>
+<meta charset="UTF-8"/>
+<base href="../../"/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="tyylit.css" rel="stylesheet" type="text/css" media="all"/>
+<title>ITKP1011-Harjoitustyö - tellus</title>
+</head>
+<body>
+  <nav class="navbartop">
+    <ul>
+        <li><a href="https://www.jyu.fi/">Jyväskylän yliopisto</a></li>
+        <li><a href="https://www.jyu.fi/it/">Informaatioteknologian tiedekunta</a></li>
+        <li><a href="https://www.jyu.fi/it/fi/opiskelu/kandidaatti-ja-maisteriohjelmat/tietotekniikka">Tietotekniikan oppiaine</a></li>
+        <li><a href="https://appro.mit.jyu.fi/itkp1011/">ITKP1011</a></li>
+    </ul>
+    </nav>
+<!--#include virtual="/~vesaloko/public_html/dui/itkp1011.ssi"-->
+    <h1>tellus - taso 5</h1>
+   <p>
+    Nam rhoncus sodales ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque malesuada pretium lacus a tristique. Proin dignissim velit a lorem gravida luctus. Nulla facilisi. Mauris tempus eros quis elit tincidunt, laoreet ultrices ipsum mattis. Praesent felis lacus, ornare quis faucibus ut, elementum non orci.
+   </p> 
+   <div class="div4">
+   <form action="https://appro.mit.jyu.fi/cgi-bin/view.cgi" method="post">
+    <fieldset>
+    <legend>Henkilötiedot</legend> 
+    <p>
+      <label for="vastaajan_nimi">Nimi</label> 
+      <input id="vastaajan_nimi" type="text" name="nimi" value=""
+       title="Annanimesi muodossa: Sukunimi Etunimi" required="required"/> 
+    </p>
+
+    <p>
+      <label for="osoite">Katuosoite</label> <input id="osoite" type="text"
+      name="osoite" value="" title="Anna osoite kokonaisena" required="required" />
+    </p>
+    <p>
+        <label for="posti">Postinumero</label> <input id="posti" type="text"
+        name="postinumero" value="" title="Anna postinumero kokonaisena" required="required"/>
+      </p>
+      <p>
+        <label for="Postitoimipaikka">Postitoimipaikka</label> <input id="Postitoimipaikka" type="text"
+        name="Postitoimipaikka" value="" title="Anna Postitoimipaikka kokonaisena" required="required"/>
+      </p>
+      <p>
+        <label for="email">Sähköpostiosoite</label> <input id="email" type="email"
+        name="email" value="" title="Anna email kokonaisena" required="required" />
+      </p>
+      <p>
+        Sukupuoli:<br />
+        <label for="mies" class="radio-label">Mies</label>
+        <input type="radio" name="sukupuoli" accesskey="M" id="mies" value="mies" checked/><br />
+        
+        <label for="nainen" class="radio-label">Nainen</label>
+        <input type="radio" name="sukupuoli" accesskey="N" id="nainen" value="nainen" /><br />
+        
+        <label for="eikerro" class="radio-label">En kerro</label>
+        <input type="radio" name="sukupuoli" id="eikerro" value="eikerro" />
+        </p>
+<p>
+  <label for ="Syntymaaika">Syntymäaika</label> <input name="aika" id="Syntymaaika" type="date" min="1900-01-01" max="2017-01-01" required="required"></p>
+<p> <label for ="Kenka">Kengän numero</label> <input name="numero" id="Kenka" type="number" min="20" max="60" step="0.5" value="40" required="required"></p>
+    </fieldset>
+          <fieldset>
+        <legend>Lisäpalvelut</legend>
+        <p>
+          <label for="Aamiainen" class="checkbox-label">Aamiainen</label>
+          <input id="Aamiainen" type="checkbox" name="Aamiainen" value="Aamiainen" /><br />
+          
+          <label for="Paivallinen" class="checkbox-label">Päivällinen</label>
+          <input id="Paivallinen" type="checkbox" name="Paivallinen" value="Paivallinen"/><br/>
+          
+          <label for="Valipala" class="checkbox-label">Välipala</label>
+          <input id="Valipala" type="checkbox" name="Valipala" value="Valipala" /><br/>
+          
+          <label for="Iltapala" class="checkbox-label">Iltapala</label>
+          <input id="Iltapala" type="checkbox" name="Iltapala" value="Iltapala" /><br/>
+          
+          <label for="Yopala" class="checkbox-label">Yöpala</label>
+          <input id="Yopala" type="checkbox" name="Yopala" value="Yopala" /><br/>
+            </p>
+  </fieldset>
+  <p><input type="submit" value="Lähetä" /></p>
+</form>
+  </div>
+  <div class="div5">
+  <div class="transform">
+  <div class="boarding-pass">
+    <div class="left-section">
+      <div class = rivi21>
+        <p>Name <Strong>JOHN DOE</Strong></p>
+        <div class="valikohta">
+        <p>No 8192898192</p></div>
+        <div class ="koodikuva">
+        <div class = koodi1>
+          <img alt="Koodi1" src="tempor/tellus/koodi1.jpg" />
+        </div></div>
+      </div>
+<div class ="rivi22">
+<p>Flight</p>
+<p>Boarding time</p>
+<p>Seat</p>
+<div class = "iso">
+<p>51A</p></div>
+</div>
+<div class = "rivi23">
+  <p><strong>AYE100</strong></p>
+  <p><strong>10:30</strong></p>
+  <p>Gate</p>
+  <div class = "iso">
+    <p>B1</p>
+  </div>
+</div>
+<div class ="rivi24">
+  <p><strong> 2022-01-25</strong></p>
+  <p>Terminal</p>
+  <div class = "iso">
+  <p>5</p></div>
+  <div class ="koodikuva">
+    <img alt="Koodi2" src="tempor/tellus/koodi2.jpg" />
+  </div>
+</div>
+</div>
+    <div class="right-section">
+      <div class ="rivi1">
+        <p>Name</p>
+        <p>Flight</p>
+      </div>
+<div class ="rivi2">
+  <p><strong>JOHN DOE</strong></p>
+  <p><Strong>AYE 100</Strong></p>
+  <p>Seat</p>
+  <div class = "iso">
+    <p>51A</p>
+  </div>
+</div>
+<div class = "rivi3">
+  <p><Strong>2022-01-25</Strong></p>
+  <p>Gate</p>
+  <div class = "iso">
+    <p>B1</p></div>
+    </div>
+    <div class ="koodikuva">
+      <img alt="Koodi1" src="tempor/tellus/koodi1.jpg" />
+    </div>
+  </div>
+  </div>
+</div>
+<p>Praesent nisl metus, rutrum sit amet felis id, auctor pharetra justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer sit amet ligula vitae purus dictum consequat. Mauris sodales, elit vitae dapibus auctor, lacus quam semper diam, rhoncus faucibus nisi nibh non ipsum. In cursus odio lacus, eget lobortis purus interdum in. Vestibulum rhoncus est non ornare consectetur. In imperdiet, elit et dictum posuere, nisi tellus porta dui, et tincidunt justo nisi id lectus. Duis tristique ligula vel convallis consequat. Integer ut elit condimentum, pulvinar velit ac, fermentum sapien.</p>
+<p>Vestibulum sit amet ligula hendrerit, sagittis nisi sit amet, ullamcorper lectus. Etiam volutpat viverra urna nec ultricies. Aliquam neque sapien, ultricies in sagittis sed, malesuada in velit. In sed commodo orci. Mauris vel iaculis lacus. Donec eget iaculis sem. Nullam ante tortor, laoreet vel est et, vehicula cursus diam. Maecenas mattis tellus orci, eu bibendum nisi tempor vitae. Integer vel arcu lobortis, accumsan est at, porta nibh. Cras eleifend tempor felis, in molestie nunc vehicula eget. Duis eget lectus lobortis, sodales elit eu, tristique sapien. In pharetra nunc vel est cursus, id cursus eros imperdiet. Curabitur ut dapibus nunc. Mauris urna sapien, efficitur in lacinia et, malesuada sed diam. Aliquam erat volutpat.</p>
+    </div>
+    <div class="alapalkki">
+    <ul>
+      <li><a href="#">ITKP1011 Harjoitustyö </a></li>
+        <li><h5>©Venla Salokoski</h5></li>
+    </ul> 
+  </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!--semiok + laitetty-->
+    <!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8"/>
+<base href="../../"/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="tyylit.css" rel="stylesheet" type="text/css" media="all"/>
+<title>ITKP1011-Harjoitustyö - posuere</title>
+</head>
+<body>
+    <nav class="navbartop">
+        <ul>
+            <li><a href="https://www.jyu.fi/">Jyväskylän yliopisto</a></li>
+            <li><a href="https://www.jyu.fi/it/">Informaatioteknologian tiedekunta</a></li>
+            <li><a href="https://www.jyu.fi/it/fi/opiskelu/kandidaatti-ja-maisteriohjelmat/tietotekniikka">Tietotekniikan oppiaine</a></li>
+            <li><a href="https://appro.mit.jyu.fi/itkp1011/">ITKP1011</a></li>
+        </ul>
+    </nav>
+<!--#include virtual="/~vesaloko/public_html/dui/itkp1011.ssi"-->
+    <h1>posuere - Taso 3</h1>
+    <p>
+        Donec dignissim commodo rutrum. Vivamus nec turpis tempus, sagittis lectus et, tincidunt lectus. Praesent hendrerit tortor in elit faucibus cursus. Suspendisse nec nisi odio. Donec in tincidunt nibh. Nam vulputate, est in tempor mattis, sapien libero molestie dolor, sed dictum enim nulla eu justo. Sed in nulla augue. Vivamus sed tincidunt arcu.
+    </p> 
+    <p>
+        Vivamus at libero cursus, tempus erat ac, egestas massa. Praesent posuere laoreet neque at scelerisque. Maecenas ultricies eros sed turpis volutpat blandit. Etiam vulputate quam sit amet tincidunt efficitur. Nulla vehicula diam non velit pellentesque, a imperdiet sapien aliquet. Morbi eu erat eu felis lacinia tincidunt sit amet ac arcu. Phasellus nec quam non sem dapibus consectetur ut consectetur arcu. Quisque id ornare ante.
+    </p>
+    <h2 class="clear"></h2>
+    <div class="flex">
+        <div>
+            <a href="tempor/posuere/isotkuvat/kuva1iso1.jpg">
+                <img alt="Kuva 1" src="tempor/posuere/kuvat/kuva1.jpg" /></a>
+            <p><strong>kuva 1</strong></p>
+        </div>
+        <div>
+            <a href="tempor/posuere/isotkuvat/kuva2iso2.jpg">
+                <img alt="Kuva 2" src="tempor/posuere/kuvat/kuva2.jpg" /></a>
+            <p><strong>kuva 2</strong></p>
+        </div>
+        <div>
+            <a href="tempor/posuere/isotkuvat/kuva3iso3.jpg">
+                <img alt="Kuva 3" src="tempor/posuere/kuvat/kuva3.jpg" /></a>
+            <p><strong>kuva 3</strong></p>
+        </div>
+        <div>
+            <a href="tempor/posuere/isotkuvat/kuva4iso4.jpg">
+                <img alt="Kuva 4" src="tempor/posuere/kuvat/kuva4.jpg" /></a>
+            <p><strong>kuva 4</strong></p>
+        </div>
+        <div>
+            <a href="tempor/posuere/isotkuvat/kuva5iso5.jpg">
+                <img alt="Kuva 5" src="tempor/posuere/kuvat/kuva5.jpg" /></a>
+            <p><strong>kuva 5</strong></p>
+        </div>
+        <div>
+            <a href="tempor/posuere/isotkuvat/kuva6iso6.jpg">
+                <img alt="Kuva 6" src="tempor/posuere/kuvat/kuva6.jpg" /></a>
+            <p><strong>kuva 6</strong></p>
+        </div>
+        <div>
+            <a href="tempor/posuere/isotkuvat/kuva7iso7.jpg">
+                <img alt="Kuva 7" src="tempor/posuere/kuvat/kuva7.jpg" /></a>
+            <p><strong>kuva 7</strong></p>
+        </div>
+    </div>
+    <p>
+        Vestibulum interdum suscipit lorem, in aliquet diam faucibus et. In faucibus volutpat diam, ac dictum enim mollis sed. Aenean maximus enim erat, id fermentum nulla suscipit sit amet. Suspendisse feugiat, metus quis posuere rhoncus, nunc leo sagittis dui, a sagittis diam eros id mi. Sed ac viverra ipsum, et congue sapien. Aenean id quam at eros facilisis lacinia. Mauris non lacinia sem.
+    </p>
+    <p>
+        Fusce blandit libero ac bibendum luctus. Fusce vel mollis mauris. Duis accumsan posuere mi, et scelerisque metus sodales nec. Vestibulum bibendum nibh diam, non tincidunt dolor ultrices accumsan. In gravida diam quis eros volutpat pulvinar. Morbi at turpis at massa tempor sodales. Suspendisse a cursus ligula. Etiam pharetra sem orci, ac vestibulum justo sodales quis. Pellentesque scelerisque enim at ullamcorper congue. Cras nec nisi at metus rhoncus euismod ut a dolor. Morbi velit purus, elementum molestie lacus id, laoreet tristique lorem.  
+    </p>
+    <div class="alapalkki">
+        <ul>
+            <li><a href="../dui/">ITKP1011 Harjoitustyö </a></li>
+            <li><h5>©Venla Salokoski</h5></li>
+        </ul>
+    </div>
+</body>
+</html>

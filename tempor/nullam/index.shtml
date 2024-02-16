@@ -1,0 +1,46 @@
+
+<!--validi, ainoona sivun padding-->
+    <!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8"/>
+<base href="#"/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="../../tyylit.css" rel="StyleSheet" type="text/css" media="all"/>
+<title>ITKP1011-Harjoitustyö - nullam</title>
+</head>
+<body>
+    <div class = "sivu">
+        <form action="https://www.google.com/search" method="get">
+            <input type="text" size="10" id="hakusana" name="q" value="" />
+            <input type="submit" value="Hae" />
+        </form></div>
+    <nav class="Navigointipalkki">
+        <ul>
+            <li><a href="https://www.jyu.fi/">Jyväskylän yliopisto</a></li>
+            <li><a href="https://www.jyu.fi/it/">Informaatioteknologian tiedekunta</a></li>
+            <li><a href="https://www.jyu.fi/it/fi/opiskelu/kandidaatti-ja-maisteriohjelmat/tietotekniikka">Tietotekniikan oppiaine</a></li>
+            <li><a href="https://appro.mit.jyu.fi/itkp1011/">ITKP1011</a></li>
+        </ul> </nav>
+<!--#include virtual="/~vesaloko/public_html/dui/tempor/itkp1011.ssi"-->
+    <div id="eriteksti" class="eriteksti">
+       <h1>nullam - Taso 3</h1>
+           <p>Vivamus dui lorem, condimentum a laoreet sed, blandit et turpis. Nam feugiat sit amet nisl vitae commodo. Sed iaculis leo est, eu lobortis ipsum consectetur in. Sed mattis eros et libero scelerisque molestie. Integer sodales eros efficitur imperdiet facilisis. Proin consequat dignissim neque sit amet interdum. Maecenas aliquet blandit odio eget eleifend.</p>
+          <p>Nullam imperdiet vulputate leo nec vehicula. Nullam porttitor ante quam, eget sodales nibh tincidunt at. Pellentesque ac convallis nulla. Pellentesque id aliquet neque. Cras convallis ante nulla, quis aliquet felis sagittis eu. Duis et orci blandit, pharetra sapien non, scelerisque lacus. Nullam magna nulla, aliquam quis pretium non, sodales auctor felis. Integer vitae risus ut leo aliquet vulputate. In non semper eros.</p>
+       <iframe class="youtube" src="https://www.youtube.com/embed/EKvNqe8cKU4"  allow="fullscreen"></iframe>
+       <p><a href= "https://www.youtube.com/embed/EKvNqe8cKU4"> https://www.youtube.com/watch?v=EKvNqe8cKU4</a></p>
+       <p>In accumsan vehicula nunc eu pharetra. In vulputate sagittis quam ac ultrices. Proin vulputate vulputate risus, nec rutrum ipsum pretium tincidunt. Fusce eu eleifend lorem. Mauris ac neque id libero feugiat venenatis a ac dolor. Praesent non libero convallis, commodo leo et, scelerisque ipsum. Fusce nec blandit nunc, non cursus mi. Integer a vulputate mi, in sagittis orci. Vivamus pharetra lacinia diam a tristique. Phasellus ultricies libero sed purus viverra, vel eleifend velit sollicitudin. Integer ullamcorper quam sed blandit laoreet. Suspendisse maximus eu turpis luctus lacinia. Sed eu magna faucibus, elementum nunc a, vestibulum nunc. Donec ullamcorper est enim, nec molestie metus tincidunt quis. Aliquam consequat, magna a ullamcorper consequat, elit magna iaculis sapien, suscipit molestie arcu ex vel velit. Phasellus ornare, nunc id molestie congue, orci ligula commodo augue, nec pharetra nunc nunc sit amet ante.</p>
+       <p>Integer ac sem risus. Sed lobortis mattis rhoncus. Pellentesque tristique nisl id rutrum volutpat. Nam odio mauris, tincidunt et nisl vitae, pretium auctor lacus. Quisque ut tellus leo. In in neque a nibh dictum gravida. Vestibulum feugiat faucibus consequat. Mauris sed pulvinar tortor. Quisque sapien quam, faucibus et tincidunt consectetur, varius ut odio.</p>
+    <h6>Video</h6>
+    <video controls="controls" src="video.mp4"></video>
+    <h6>Ääni</h6>
+    <audio controls="controls" src="musiikki.mp3"></audio>
+</div>
+<div class="alapalkki">
+    <ul>
+      <li><a href="../../">ITKP1011 Harjoitustyö </a></li>
+        <li><h5>©Venla Salokoski</h5></li>
+    </ul>
+    </div>
+    </body>
+    </html>

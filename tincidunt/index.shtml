@@ -1,0 +1,42 @@
+<!--ok-->
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8"/>
+<base href="../"/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="tyylit.css" rel="stylesheet" type="text/css" media="all"/>
+<title>ITKP1011-Harjoitustyö - tincidunt</title>
+</head>
+<body>
+    <nav class="navbartop">
+        <ul>
+            <li><a href="https://www.jyu.fi/">Jyväskylän yliopisto</a></li>
+            <li><a href="https://www.jyu.fi/it/">Informaatioteknologian tiedekunta</a></li>
+            <li><a href="https://www.jyu.fi/it/fi/opiskelu/kandidaatti-ja-maisteriohjelmat/tietotekniikka">Tietotekniikan oppiaine</a></li>
+            <li><a href="https://appro.mit.jyu.fi/itkp1011/">ITKP1011</a></li>
+        </ul>
+        </nav>
+<!--#include virtual="/~vesaloko/public_html/dui/itkp1011.ssi"-->
+   <h1>tincidunt</h1>
+   <p>
+      Proin ultricies justo vel odio condimentum, imperdiet efficitur urna efficitur. Aliquam erat volutpat. Sed hendrerit elit in consectetur rhoncus. Morbi ex est, consequat at accumsan vel, vestibulum vitae arcu. Duis enim odio, tincidunt mollis vulputate sed, lacinia nec felis. Vestibulum placerat nulla enim, a commodo lectus laoreet id. Nunc condimentum tortor vitae magna facilisis, eu iaculis lacus tempor. Phasellus vel luctus magna. Donec id est vulputate, pulvinar felis a, facilisis tortor. Integer iaculis sem libero, et volutpat nulla vulputate ac. Proin ac vulputate nunc. Nulla semper lorem nunc, eu dignissim est laoreet in. Pellentesque nec lectus eget nisl ultrices ornare in at ipsum. Cras facilisis arcu ac ex pretium lacinia a id dolor. Proin nec dui urna.
+   </p> 
+   <p>
+      Aliquam erat volutpat. Maecenas id gravida ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec commodo massa, et aliquam lectus. Etiam luctus quis leo id suscipit. Sed tristique, eros viverra rhoncus tincidunt, tortor ligula imperdiet ipsum, non rutrum risus metus vel tellus. Nunc vulputate eget risus non aliquet. Mauris tincidunt condimentum tempus. Nam sed elit eget mauris tincidunt sagittis id id tellus.
+   </p>
+   <p>
+      Ut ut dapibus ligula. Integer rhoncus rutrum magna, euismod cursus turpis gravida id. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer aliquam ante et ex tristique, sed ultricies odio dictum. Vestibulum eget rutrum leo. Sed ex nulla, lobortis ac enim tempus, commodo lacinia sem. Nullam mollis libero sed velit porttitor interdum. Curabitur lacinia aliquet ligula, vel tincidunt dui congue vitae. Phasellus malesuada ullamcorper nulla nec iaculis. Curabitur accumsan arcu vitae dui molestie commodo. Nullam mollis faucibus justo vel sagittis. Praesent pretium ante vitae diam sagittis, nec ornare augue ultricies. Suspendisse ac sollicitudin sapien, a ultrices ipsum. Cras quis augue in nulla vulputate porta vitae nec turpis.
+   </p>
+   <p>
+      Suspendisse nec ex sit amet ante facilisis convallis. Fusce sit amet varius urna, at eleifend quam. Mauris a ultrices neque. Vestibulum fermentum erat id massa tempor venenatis. Ut blandit, dolor eget feugiat mattis, risus tellus faucibus mi, sed laoreet ex nunc sed erat. Vestibulum eu ipsum vitae mauris rhoncus facilisis eget a augue. Sed nunc magna, pulvinar at accumsan sed, pellentesque nec odio. Etiam vestibulum ornare mattis. Curabitur vitae pharetra ante. Morbi mi purus, dapibus vel libero a, sodales ultricies nisl. Praesent hendrerit porttitor metus. Curabitur erat metus, eleifend id purus tempor, gravida interdum justo. Sed commodo luctus aliquet. Fusce dictum placerat ultricies. Nulla bibendum ipsum in augue luctus suscipit.
+   </p>
+   <div class="alapalkki">
+      <ul>
+         <li><a href="#">ITKP1011 Harjoitustyö</a></li>
+         <li><h5>©Venla Salokoski</h5></li>
+      </ul>
+   </div>
+</body>
+</html>
+

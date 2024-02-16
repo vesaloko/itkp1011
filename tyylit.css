@@ -1,0 +1,943 @@
+html {
+  min-height:100%;
+	    position:relative;
+}
+body {
+  color: black;
+  background-color: white;
+  font-family: Helvetica, sans-serif;
+  margin-left: 0;
+  margin-right:0;
+  height:100%;
+}
+
+h1, h2{
+  margin-top: 1.5em;
+  margin-bottom:22px;
+}
+
+h3{
+  font-family: Helvetica, sans-serif;
+  color: black;
+  font-weight: bold;
+  clear: both;
+}
+h4{
+  font-family: Helvetica, sans-serif;
+  font-size: 1.1em;
+}
+h5{
+  font-family: Helvetica, sans-serif;
+  float:right;
+  margin-right: 1.2em;
+  color: black;
+text-align: center;
+vertical-align: text-top;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 0;
+margin-top:0em;
+}
+
+h6{
+  font-family: Helvetica, sans-serif;
+  color: black;
+  vertical-align: middle;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
+  margin-top:1em;
+  margin-bottom:1em;
+}
+
+.navbartop {
+position:absolute;
+top:0;
+left:0;
+  background-color :#c3ef8a;
+  text-align: center;
+ padding-top: 6px;
+  padding-bottom: 6px;
+  width: 100%;
+
+}
+
+
+.navbartop ul li {
+  display: inline; 
+  border-left: 3px solid #97e539;
+  margin-left: 0.5em;
+  padding-left: 0.5em;
+}
+
+.navbartop ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navbartop ul li:first-child {
+  border-left: 0;
+  margin-left: 0;
+  padding-left: 0;
+
+}
+
+.navbartopli:last-child {
+  border-right: none;
+}
+
+.navbartop li a {
+font-weight: bold;
+font-family: Helvetica, sans-serif;
+  color: #0000ee;
+  text-decoration: underline;
+}
+
+
+.kuva {
+  width: 100%; /* Set the width to 100% to ensure the picture fits the screen */
+  max-width: 512px;
+  max-height: 480px;
+  text-align: center;
+  margin-top: 1em;
+  position: relative;
+  padding-left: 1em;
+}
+
+
+.kuva p {
+  overflow: hidden;
+  margin: 0;
+  padding-top: 1em;
+  padding-left: 0.2em;
+  font-size: 0.9em;
+}
+
+
+
+.navbar li a {
+  display: list-item;
+  text-align: left;
+  vertical-align: text-top;
+  list-style-type: none;
+
+}
+
+.navbar li {
+  text-align: left;
+  margin-left: 0.2em;
+  vertical-align: top;
+  list-style-type: disc;
+
+}
+
+
+.navbar ul{
+  margin-left: 0.5em;
+  padding-left: 1.6em;
+  font-family: Helvetica, sans-serif;
+  background-color :#c3ef8a	;
+  text-align: left;
+  font-weight: bold;
+  list-style-type: circle;
+
+}
+
+.navbar ul ul li {
+  list-style-type: circle;
+}
+
+.koodikuva{
+  transform: scale(0.2);
+position:absolute;
+top:-2em;
+}
+
+.koodi1{
+margin-top:18em;
+padding-top:10em;
+}
+.navbar{
+  width:30%;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  margin-top : 1em;
+  margin-bottom: 3em;
+  text-align: left;
+  float:right;
+  padding-bottom: 15%;
+  border-style: dotted;
+  border-color: #97e539;
+  background-color :#c3ef8a	;
+}
+
+.division{
+  float:none;
+  height: auto;
+}
+
+.division1{
+  padding-left: 0.2em;
+  width:100%;
+  height: auto;
+  float:left;
+}
+
+.division3{
+  width:100%;
+  float: left;
+}
+
+.transform {
+  transform-origin: center;
+  transform: rotate(40deg) scale(0.5) translate(70vw, 40vh);
+}
+
+.alapalkki{
+  max-width:100%;
+  background-color: #c3ef8a;
+  align-self: flex-end;
+margin-top:2em;
+z-index:10;
+  margin-bottom:3em;
+padding-top:0.5em;
+padding-bottom:0.5em;
+clear: both; /* Add this line to clear the float */
+}
+
+/* Adjust the styles of the preceding element to add margin-bottom */
+.preceding-element {
+  margin-bottom: 3em;
+}
+
+
+
+.alapalkki li a {
+font-weight: bold;
+font-family: Helvetica, sans-serif;
+  color: #0000ee;
+  text-decoration: underline;
+  float:none;
+  
+}
+
+.alapalkki ul li {
+  display: inline; 
+  padding-right: 1em;
+justify-content: space-between;
+  vertical-align: middle;
+}
+
+
+
+table.eka {
+  border-collapse: collapse;
+  border-spacing: 10px;
+  empty-cells: show;
+  border: 2px dashed #c3ef8a;
+  text-align: left;
+  margin-left: 10%;
+}
+
+table.eka caption {
+  caption-side: top;
+}
+
+td {
+  border: 1px solid #c3ef8a;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  text-align: left;
+  padding-left: 0.4em; /* Adjust the value for the desired padding */
+  padding-right: 0.7em; /* Adjust the value for the desired padding */
+}
+
+th {
+  border: 1px solid #c3ef8a;
+  text-align: center;
+  padding-top: 0.5em;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  padding-bottom: 0.3em;
+}
+
+.boarding-pass {
+background-color: #F2F3F2;
+  display: flex;
+position:absolute;
+  width: 90%;
+  font-family: Arial, sans-serif;
+overflow:hidden;
+top:-20em;
+left:-20em;
+
+}
+
+
+
+
+.koodi1 {
+position:absolute;
+top:10em;;
+}
+.left-section {
+  flex: 1.3;
+  padding: 3em;
+height:12em;
+border-right:2px dashed black;
+ border-bottom: 3em solid darkblue;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: relative;
+}
+
+.left-section::before {
+  content: "✈️ BOARDING PASS";
+
+font-size:larger;
+padding-top:0.5em;
+  color:white;
+  font-weight: bolder;
+  position: absolute;
+  top: 0;
+padding-left:1em;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background-color: darkblue;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+
+.right-section {
+  flex: 1;
+  padding: 3em;
+height:12em;
+ border-bottom: 3em solid darkblue;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: relative;
+
+}
+
+.right-section::before {
+  content: "";
+padding-top:0.6em;
+  position: absolute;
+  top: 0;
+  right: 0;
+left:1em;
+  width: 97%;
+  height: 40px;
+  background-color: darkblue;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.rivi1 {
+position:absolute;
+left:1em;
+top:3.9em;
+width:65%;
+
+}
+
+.rivi2 { 
+position:absolute;
+top:3.5em;
+left:5em;
+
+}
+
+
+.iso{
+font-size:2em;
+font-weight:bolder;
+}
+
+.rivi3 {
+width:65%;
+position:absolute;
+left:9.5em;
+top:5.5em;
+}
+ .rivi4 {
+position:absolute;
+left:20em;
+width:65%;
+top:2.5em;
+}
+
+.rivi21{
+position:absolute;
+left:0;
+
+}
+.rivi22{
+position:absolute;
+top:3em;
+left:8.5em;
+}
+
+.rivi23{
+position:absolute;
+left:15em;
+}
+
+.rivi24{
+position:absolute;
+left:19em;
+}
+
+.div4 {
+
+  width:auto;
+  margin-left:10%;
+  position: relative;
+  margin-right:15%;
+  }
+
+.div5 {
+  float: left;
+  width: 100%;
+}
+
+
+.form  {
+  display: grid;
+  grid-gap: 1em;
+}
+
+.div1{
+  float: left;
+  margin: 1em;
+  width:initial;
+}
+.sivu {
+	overflow:hidden;	
+padding-right:2.5em;	
+position:absolute;	
+margin-top:0.3em;		
+top:0;	
+right:0;		
+width:20%;		
+z-index:10;
+}
+
+input[type="submit"],		
+textarea {		
+position:absolute;	
+right:0;		
+}
+
+.Navigointipalkki {
+  position: absolute;
+  top:0;		
+  left: 0;		  
+  background-color: #c3ef8a;		  
+  width: 100%;		  
+padding-top:6px;		
+padding-bottom:6px;	
+z-index:6;	
+}
+
+.Navigointipalkki ul {
+  padding:0;
+  margin:0;
+width:85%;
+
+}
+
+.Navigointipalkki ul li {
+  display: inline;
+  border-left: 2px solid #97e539;
+  padding-left: 0.3em; /* Adjusted padding on the left and right */
+  margin-left: 0.1em;
+
+}
+
+
+.Navigointipalkki ul li:first-child {
+border-left:0;
+}
+
+
+
+.Navigointipalkki li {
+margin-right:2px;
+}
+
+
+.Navigointipalkki li a {
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+}
+
+
+
+
+.sivupalkki li {
+  margin-left: 1em;
+  list-style-type: disc;
+
+}
+.sivupalkki ul ul li {		
+  list-style-type: circle;		
+margin-left:1em;
+}
+
+.sivupalkki ul{
+  font-weight: bold;
+  font-family: Helvetica, sans-serif;
+  background-color :#c3ef8a	;
+  text-decoration: underline;
+  margin-left: 0.4em;
+  padding-left: 0.5em; 
+}
+
+
+.sivupalkki{
+  width:25%;
+padding-top:1em;
+  position: absolute;
+  left: 0;
+  bottom:7em;
+  top: 1em;
+  background-color: #c3ef8a;
+  text-align: left ;
+  list-style-type: none;
+z-index:2;
+}
+
+.eriteksti{
+  padding-left: 13%;
+  margin-left: 13%;
+  position: relative;
+}
+.youtube {
+  width: 99%;
+  aspect-ratio: 16/9;
+}
+a:link , a:visited {
+  color: blue;
+}
+
+
+video {
+  margin-top:0;
+  width: 100%;
+  height: auto;
+  margin-right:0;
+}
+label {
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 2px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+float:right;
+  width: 50%;
+}
+
+input[type="number"],
+input[type="date"],
+input[type="radio"],
+textarea {
+float:right;
+  margin-right: 0;
+  text-align: right; 
+}
+
+input[type="number"],
+textarea{
+margin-top:0;
+width:10%;
+}
+
+label.radio-label {
+  display: inline-block;
+margin-left:15em;
+padding-left:5em;
+
+}
+
+label.checkbox-label {
+  position: absolute;
+  left:70%;
+}
+
+input[type="checkbox"],
+textarea {
+position: absolute;
+right:4%;
+
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex div {
+float: left;
+max-width: 265px;
+max-height: 200px;
+text-align: center;
+clear: right;
+margin-top: 1.5em;
+margin-bottom: 1.5em;
+margin-right: 1.5em;
+margin-left: 1.5em;
+  
+}
+
+.flex div p {
+height: 1.5em;
+text-align: center;
+overflow: hidden;
+margin: 0;
+padding: 0;
+font-size: 0.9em;
+}
+.clear {
+  clear: both;   
+}
+
+@media print {
+  .navbartop, .navbar {
+    display: none;
+  }
+  
+  body {
+    font-family: "Times New Roman", serif;
+    margin-top: 0.5cm;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+    margin-bottom: 0.5cm;
+  }
+  
+ 
+  .kuva {
+    float: none;
+    page-break-inside: avoid;
+  }
+  
+  }
+  
+
+  @media all and (max-width: 600px) {
+
+    
+    body, .eriteksti {
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar , .navbartop, .sivupalkki, .Navigointipalkki {
+      width: 46%;
+     border: 0;
+     margin: 0;
+     padding: 0;
+    }
+
+    h1,h2,p {
+margin-top:0;
+      margin-left: 0;
+      float:left;
+clear:both;
+    }
+
+h3 {
+position:relative;
+}
+
+.division1{
+position:relative;
+margin-top:3em;
+}
+
+
+   .navbartop {
+z-index:100;
+  margin-left: 0.5em;
+padding-left:1em;
+  margin-bottom: 2em;
+  padding-bottom: 5%;
+margin-top:0.5em;
+  z-index:100;
+    }
+    
+  
+  
+    .navbartop li a {
+display: list-item;
+  text-align: left;
+      list-style-type: none;
+      font-weight: normal;
+list-style-type: disc;
+    }
+    
+      
+    .navbartop ul li {
+      border-left: 0;
+      padding-left: 0.5em;
+    }
+
+    
+.flex {
+width: 100%;
+margin-left:1em;
+float:left;
+}
+
+strong{
+padding-left:8em;
+
+}
+
+.navbar {   
+z-index:100;
+
+  position:relative;
+top:-0.5em;
+right:0.5em;
+}
+
+
+form {
+margin-bottom:3em;
+}
+
+.div4{
+margin-left:0;
+width:100%;
+}
+
+
+label {
+float:left;
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+position:absolute;
+right:1em;
+width:50%;
+}
+
+
+input[type="email"],
+textarea {
+position:absolute;
+right:1em;
+width:50%;
+padding-right:0;
+}
+
+
+input[type="number"],
+input[type="date"],
+text area{
+position:absolute;
+right:1em;
+margin-top:1em;
+}
+
+
+label.radio-label {
+position:absolute;
+left:5em;
+
+}
+
+input[type="radio"],
+text area{
+position:absolute;
+right:0;
+margin-right: 2em;
+
+}
+		
+.sivu{		
+  margin-right:0.5em;		
+  position:relative;		
+  top:8em;		
+  width:40%;		
+  right:5.4em;		
+  }
+
+	
+   .sivupalkki {					
+padding-bottom:2em;
+width:45%;	
+position:static;
+left:18em;
+right:1em;
+padding-top:0em;
+margin-top:0;	
+position:relative;
+top:-3em;
+    }		
+    		
+  	
+.youtube{		
+width:80%;		
+margin-left:10%;		
+margin-bottom:0.5em;		
+}		
+  		
+    .sivupalkki  li a {		
+  text-align: left;		
+      list-style-type: none;		
+      font-weight: bold;	
+    }		
+    		
+    .sivupalkki li, .Navigointipalkki li a, .navbartop li{		
+      font-weight: normal;			
+list-style-type: disc;		
+    		
+    }   	
+    		
+   .Navigointipalkki {		
+display:list-item;		
+  margin-left: 0.5em;		
+padding-left:1em;		
+top:1.5em;		
+  padding-bottom: 6em;		
+width:45%;		
+    }		
+    		
+  	
+      		
+    .Navigointipalkki ul li, .sivupalkki ul li {		
+      border-left: 0;		
+      padding-left: 0.5em;		
+display: list-item;		
+    }		
+  
+
+.boarding-pass {
+  display: flex;
+  width: 100%;
+  font-family: Helvetica, sans-serif;
+position:relative;
+top:0em;
+width:95%;
+left:1em;
+margin-bottom:1em;
+}
+
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 3em solid darkblue;
+  position: relative;
+max-height:16em;
+border-right:2px dashed black;
+}
+
+.left-section::before {
+  content: "✈️ BOARDING PASS";
+font-size:larger;
+  color:white;
+  font-weight: bolder;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 96%;
+  height: 40px;
+  background-color: darkblue;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 3em solid darkblue;
+  position: relative;
+max-height:16em;
+
+}
+
+.rivi1{
+position: absolute;
+top:4em;
+left:0em;
+}
+
+.rivi2{
+position: absolute;
+top:4em;
+left:3em;
+
+}
+
+.rivi3{
+position: relative;
+top:7em;
+left:5em;
+}
+
+
+
+.rivi21{
+position:absolute;
+left:0;
+top:3em;
+}
+
+.rivi22{
+position:absolute;
+left:0em;
+top:8em;
+}
+
+.rivi23{
+position:absolute;
+left:3.8em;
+top:8em;
+}
+
+.rivi24{
+position:absolute;
+left:7em;
+top:9em;
+}
+
+.transform{
+transform: none;
+
+
+}
+
+.right-section::before {
+  content: "";
+padding-top:0.6em;
+  position: absolute;
+  top: 0;
+  right: 0;
+left:0em;
+  width: 100%;
+  height: 40px;
+  background-color: darkblue;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.koodikuva{
+  transform: scale(0.2);
+bottom:1em;
+left:0em;
+}
+  }
+ 
+
+

@@ -1,0 +1,105 @@
+<!--pitäs olla ok ei toimu selaimessa tosin -->
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8"/>
+<base href="../"/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="tyylit.css" rel="StyleSheet" type="text/css" media="all"/>
+<title>ITKP1011-Harjoitustyö - tempor</title>
+</head>
+<body>
+  <nav class="navbartop">
+    <ul>
+        <li><a href="https://www.jyu.fi/">Jyväskylän yliopisto</a></li>
+        <li><a href="https://www.jyu.fi/it/">Informaatioteknologian tiedekunta</a></li>
+        <li><a href="https://www.jyu.fi/it/fi/opiskelu/kandidaatti-ja-maisteriohjelmat/tietotekniikka">Tietotekniikan oppiaine</a></li>
+        <li><a href="https://appro.mit.jyu.fi/itkp1011/">ITKP1011</a></li>
+    </ul>
+    </nav>
+<!--#include virtual="/~vesaloko/public_html/dui/itkp1011.ssi"-->
+ <h1>tempor - Taso 1</h1>
+        <p>Nullam imperdiet vulputate leo nec vehicula. Nullam porttitor ante quam, eget sodales nibh tincidunt at. Pellentesque ac convallis nulla. Pellentesque id aliquet neque. Cras convallis ante nulla, quis aliquet felis sagittis eu. Duis et orci blandit, pharetra sapien non, scelerisque lacus. Nullam magna nulla, aliquam quis pretium non, sodales auctor felis. Integer vitae risus ut leo aliquet vulputate. In non semper eros.</p>
+        <p>Cras molestie, dui non congue sagittis, erat lectus efficitur velit, vitae dapibus nibh risus a ligula. Phasellus fringilla urna lacinia dignissim fringilla. Nunc scelerisque metus massa, ac rutrum ex tincidunt at. Nulla rutrum erat nulla, et convallis nunc consequat vitae. Cras ac consectetur massa. Aliquam erat volutpat. Aliquam eget ante ut quam mollis euismod id feugiat sapien. Suspendisse id mauris dui. Praesent scelerisque eros eget sapien tempor, in cursus velit laoreet.</p>
+        <p>Nam ac vulputate lacus. Phasellus interdum, lacus id placerat auctor, urna sem hendrerit erat, quis cursus nunc odio ac metus. Aenean pharetra mauris gravida risus elementum iaculis. Nunc tristique vulputate viverra. Aenean tincidunt metus vel pulvinar fermentum. Pellentesque eu nunc consequat, tempor quam a, cursus ex. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+        <table class="eka">
+            <caption>Mallitaulukko</caption>
+            <tr>
+              <th>ots 1</th>
+              <th>ots 2</th>
+              <th>ots 3</th>
+              <th>ots 4</th>
+              <th>ots 5</th>
+              <th>ots 6</th>
+            </tr>
+            <tr>
+              <td>1.0</td>
+              <td>0.0</td>
+              <td>0.0</td>
+              <td>0.0</td>
+              <td>0.0</td>
+              <td>0.0</td>
+            </tr>
+            <tr>
+              <td>2.0</td>
+              <td>1.0</td>
+              <td>0.0</td>
+              <td>0.0</td>
+              <td>0.0</td>
+              <td>0.0</td>
+            </tr>
+            <tr>
+              <td>3.0</td>
+              <td>1.0</td>
+              <td>1.0</td>
+              <td>0.0</td>
+              <td>0.0</td>
+              <td>0.0</td>
+            </tr>
+            <tr>
+                <td>4.0</td>
+                <td>2.0</td>
+                <td>1.0</td>
+                <td>1.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+              </tr>
+              <tr>
+                <td>5.0</td>
+                <td>2.0</td>
+                <td>1.0</td>
+                <td>1.0</td>
+                <td>1.0</td>
+                <td>0.0</td>
+              </tr>
+              <tr>
+                <td>6.0</td>
+                <td>3.0</td>
+                <td>2.0</td>
+                <td>1.0</td>
+                <td>1.0</td>
+                <td>1.0</td>
+              </tr>
+              <tr>
+                <td>7.0</td>
+                <td>3.0</td>
+                <td>2.0</td>
+                <td>1.0</td>
+                <td>1.0</td>
+                <td>1.0</td>
+              </tr>
+            </table>
+        <div id="3tDivistion" class="division3">
+<p>Maecenas dapibus tellus urna, eget maximus arcu scelerisque non. Nullam sodales finibus facilisis. Sed aliquet lorem in dolor facilisis commodo. Phasellus porta faucibus libero. Sed sed nulla massa. Suspendisse sit amet fermentum tellus. Phasellus sed felis placerat, commodo sem nec, imperdiet odio. Cras mattis fringilla ligula eu hendrerit. Curabitur a molestie tellus. Ut posuere dictum elit, quis euismod est. Nam egestas felis id pharetra rutrum. Maecenas diam magna, blandit in lorem ut, tempor commodo ante.
+</p>
+<p>Fusce diam magna, tincidunt eu purus non, consectetur consequat velit. Aliquam ac tempor dui. Maecenas tempus tellus luctus, pellentesque mi nec, fermentum arcu. Nullam ut mollis magna. Phasellus et sapien eget velit rutrum aliquam gravida pulvinar tortor. Maecenas porttitor ex non euismod vulputate. Sed ut ante purus. Cras fermentum magna quis augue accumsan, nec venenatis erat molestie. Phasellus sodales ipsum mattis cursus viverra. Curabitur gravida varius rutrum. Suspendisse aliquam dolor sed felis condimentum, nec pellentesque est auctor. Fusce felis tellus, lobortis ut suscipit et, convallis sit amet ipsum. Curabitur sit amet dui lectus. Quisque ac nibh egestas, porta purus et, ultricies lectus. Vivamus tristique fringilla convallis.
+</p>
+</div>
+<div class="alapalkki">
+    <ul>
+      <li><a href="#">ITKP1011 Harjoitustyö</a></li>
+        <li><h5>©Venla Salokoski</h5></li>
+    </ul>
+</div>
+</body>
+</html>
